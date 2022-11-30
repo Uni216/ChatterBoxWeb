@@ -41,7 +41,7 @@ function addRoom(){
 }
 function Redirect(RooName){
 localStorage.setItem("RoomName", RooName)
-window.location="kwitter_page.html"
+window.location="room.html"
 }
 function logout(){
     localStorage.removeItem("user_name")
